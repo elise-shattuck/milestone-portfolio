@@ -62,7 +62,7 @@ header h1 {
     font-family: 'Bree Serif', serif;
     font-size: 50px;
     line-height: 80px;
-    padding: 30px 0;
+    padding: 30px 38px;
 }
 
 header h1 span {
@@ -73,29 +73,93 @@ header h1 span {
 header h2 {
     font-size: 36px;
     font-weight: 400;
+    padding: 0px 38px;
 }
 
 /*** PORTFOLIO ***/
 
-#portfolio .full-width {
-    padding: 80px 0;
+#portfolio {
+    background: white;
 }
 
-#portfolio h3 {
-    color: #8257C6; /* change color later? */
+#portfolio .full-width {
+    padding: 50px 0;
 }
 
 #portfolio img {
     border: 2px solid #DEDCE2;
-    margin: 0 28px;
+    margin: 10px 28px;
 }
 
-#portfolio h4, #portfolio  {
+#portfolio h4, #portfolio p {
     margin: 10px 28px;
+    font-size: 18px;
     text-align: center;
 }
 
 #portfolio a {
     text-decoration: none;
-    color: #8257C6;
+    color: #291E3F;
+}
+
+/*** ABOUT ME ***/
+
+#about {
+    background: #EFD4DB;
+}
+
+#about .full-width {
+    padding: 60px 0;
+}
+
+#about p {
+    padding: 0 30px;
+    font-size: 18px;
+    line-height: 30px; /* adjust depending on how much you write */
+}
+
+/*** CONTACT ***/
+#contact {
+    background: white;
+}
+
+#contact .full-width {
+    padding-top: 100px;
+}
+
+#contact .half-width {
+    padding-bottom: 20px;
+}
+
+#contact h3 {
+    text-align: left;
+    padding-left: 30px;
+}
+
+img#contact-img {
+    border: 10px solid #EFD4DB;
+    margin-left: 65px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #291E3F;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#contact table {
+    margin-left: 20px;
+}
+
+#contact td {
+    padding: 5px 15px 5px 5px;
+    vertical-align: middle;
+}
+
+#contact p {
+    text-align: center;
+    font-size: 14px;
+    clear: both;
+    padding-top: 40px;
 }
