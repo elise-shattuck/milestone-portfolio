@@ -1,0 +1,27 @@
+/*** BASE STYLES ***/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #291E3F;
+}
+
+header, #about, #portfolio, #contact {
+    height: 600px;
+}
+
+/*** GRID ***/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
