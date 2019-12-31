@@ -1,11 +1,11 @@
 /*** BASE STYLES ***/
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #291E3F;
 }
 
-header, #about, #portfolio, #contact {
+#about, #portfolio, #contact {
     height: 600px;
 }
 
@@ -24,4 +24,47 @@ header, #about, #portfolio, #contact {
 .third-width {
     width: 400px;
     float: left;
+}
+
+/*** HEADER ***/
+
+header {
+    height: 800px;
+    background: url("../img/hero.png");
+    background-size: cover;
+}
+
+nav {
+    float: right;
+    padding: 70px 40px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #291E3F;
+    padding-left: 25px;
+}
+
+header h1 {
+    clear: both;
+    font-family: 'Bree Serif', serif;
+    font-size: 50px;
+    line-height: 80px;
+    padding: 30px 0;
+}
+
+header h1 span {
+    color: #8257C6;
+    font-size: 100px;
+}
+
+header h2 {
+    font-size: 36px;
+    font-weight: 400;
 }
