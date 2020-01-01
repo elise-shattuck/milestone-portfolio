@@ -69,6 +69,7 @@ header h1 span {
     color: #8257C6;
     letter-spacing: 5px;
     font-size: 100px;
+    text-transform: uppercase;
 }
 
 header h2 {
